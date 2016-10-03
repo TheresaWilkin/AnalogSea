@@ -1,0 +1,65 @@
+body {
+	background-color: dodgerblue;
+	font-family: Roboto, sans-serif;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	height: 35px;
+}
+
+form {
+	background-color: white;
+	width: 320px;
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+h1 {
+	color: grey;
+	font-weight: normal;
+}
+
+label {
+	display: block;
+	text-align: left;
+}
+
+input {
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	padding: 15px;
+	width: 286px;
+	height: 21px;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+button {
+	background-color: mediumseagreen;
+	width: 320px;
+	height: 55px;
+	border-radius: 5px;
+	color: white;
+	border-color: mediumseagreen;
+}
+
+button:hover {
+	background-color: green;
+}
+
+.forgot {
+	color: darkgrey;
+	font-size: 0.75em;
+}
+
+.login {
+	color: white;
+	text-align: center;
+}
